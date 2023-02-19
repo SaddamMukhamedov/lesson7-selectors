@@ -20,6 +20,12 @@ document.getElementById('addNote').addEventListener('click', () => {
   }
 })
 
+document.getElementById('scrollToTop').addEventListener('click', () => {
+  window.scrollTo({
+    top: 0
+  })
+})
+
 // Завантажуємо з сервера файл і додаємо його зміст до списку
 document.getElementById('loadNotes').addEventListener('click', () => {
   const request = new XMLHttpRequest();
