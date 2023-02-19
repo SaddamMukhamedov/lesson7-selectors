@@ -1,0 +1,5 @@
+a[href*="/wiki/"]
+input#addNote[type="button"]
+input + [type="button"][name="addNote"]
+ol#notesList li:nth-child(3)
+ol#notesList li:last-child

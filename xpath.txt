@@ -1,0 +1,5 @@
+//a[contains(@href, "wiki")]
+//input[@id="addNote"][@type="button"]
+//input[@type="button" and @name="addNote"]
+//ol[@id='notesList']/li[2]
+//ol[@id='notesList']/li[last()]
